@@ -1,0 +1,116 @@
+#phangiua {
+    width: 100%;
+    max-width: 900px;
+    margin: 0px auto 0px auto;
+    position: relative;
+}
+
+#phangiua p {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+
+#phangiua .nghi6k {
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+#footer {
+    padding-left: 36px;
+}
+
+.leftf {
+    float: left;
+    bottom: 0;
+    width: 50%;
+}
+
+#footer .rightf {
+    float: left;
+    text-align: right;
+    bottom: 0;
+    right: 0;
+    margin-right: 36px;
+    margin-bottom: -50px;
+}
+
+.rightf,
+.leftf {
+    margin-bottom: 10px;
+}
+
+.leftf p {
+    font-family: helveticaneue;
+    font-size: 12px;
+    margin: 0;
+}
+
+.leftf ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.leftf ul li {
+    display: block;
+    float: left;
+}
+
+.leftf ul li a {
+    display: inline-block;
+    padding-right: 5px;
+    margin-left: 5px;
+    border-right: 1px solid #000;
+    color: #000;
+}
+
+.lefthaha i {
+    margin-left: 5px;
+}
+
+i {
+    zoom: 1.7;
+}
+
+.rightf a {
+    color: #000;
+    font-family: helveticaneue;
+    font-size: 12px;
+    letter-spacing: 0.5px;
+}
+
+.rightf p {
+    font-size: 12px;
+    font-family: HelveticaNeue;
+    margin-bottom: 0;
+}
+
+.rightf img {
+    max-width: 150px;
+}
+
+#phangiua li {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+
+.nghi1k {
+    font-family: arial, helvetica, sans-serif;
+    color: red;
+    font-weight: 700;
+}
+
+#phangiua .nghi2k {
+    font-family: arial, helvetica, sans-serif;
+    padding-bottom: 15px;
+}
+
+.nghi4k {
+    color: blue;
+    cursor: pointer;
+}
+
+.nghi5k ul {
+    list-style: none;
+}

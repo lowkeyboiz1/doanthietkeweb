@@ -1,0 +1,174 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    line-height: 1.5;
+}
+
+#content .contentBody  {
+    flex: 1;
+}
+#header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 150px;
+    margin-top: 20px;
+}
+
+#footer {
+    padding-left: 36px;
+}
+
+#footer .leftf {
+    float: left;
+    position: fixed;
+    bottom: 0;
+    width: 50%;
+}
+
+#footer .leftf p {
+    font-family: helveticaneue;
+    font-size: 12px;
+    margin: 0;
+}
+
+#footer .leftf ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+#footer .leftf ul li {
+    display: block;
+    float: left;
+}
+
+#footer .leftf ul li a {
+    display: inline-block;
+    padding-right: 5px;
+    margin-left: 5px;
+    border-right: 1px solid #000;
+    color: #000;
+}
+
+.left {
+    float: left;
+}
+
+.left img {
+    margin-left: 40px;
+    width: 105px;
+    height: 77px;
+}
+
+.right {
+    float: right;
+}
+
+.right a {
+    color: #000;
+    margin-left: 16px;
+    font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+}
+
+.right img {
+    height: 17px;
+}
+
+.right1,
+.right2 {
+    float: left;
+    height: 50px;
+    width: 75px;
+}
+
+.lefth {
+    float: right;
+    margin-right: 30px;
+}
+
+.lefth img {
+    margin-top: 0px;
+}
+
+.left ul {
+    list-style: none;
+    margin-top: 15px;
+    position: fixed;
+    margin-left: 10px;
+}
+
+.left a {
+    color: #000;
+    font-size: 12px;
+    display: inherit;
+    margin: 2px 0px;
+    letter-spacing: 1px
+}
+
+.left ul li a:hover {
+    text-decoration: none;
+    font-weight: 700;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+
+.rightf {
+    float: left;
+    text-align: right;
+    position: fixed;
+    bottom: 0;
+    width: 50%;
+    right: 0;
+    margin-right: 36px;
+}
+
+.rightf,
+.leftf {
+    margin-bottom: 20px;
+}
+
+.rightf a {
+    color: #000;
+    font-family: helveticaneue;
+    font-size: 12px;
+    letter-spacing: 0.5px;
+}
+
+.lefthaha i {
+    margin-left: 5px;
+}
+
+.lefthaha {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin-right: 15px;
+}
+
+.lefthaha a {
+    color: #000;
+}
+
+i {
+    zoom: 1.7;
+}
+
+.rightf p {
+    font-size: 12px;
+    font-family: HelveticaNeue;
+    margin-bottom: 0;
+}
+
+.rightf img {
+    max-width: 150px;
+}
+
+.a1 {
+    margin-right: 18px;
+}

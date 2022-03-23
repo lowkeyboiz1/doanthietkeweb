@@ -1,0 +1,39 @@
+  #center {
+      background: #fff;
+      padding: 40px;
+      margin: 30px auto;
+      border-radius: 3px;
+      -webkit-box-shadow: 0px 0px 3px 0px rgb(50 50 50 / 30%);
+      -moz-box-shadow: 0px 0px 3px 0px rgba(50, 50, 50, 0.3);
+      box-shadow: 0px 0px 3px 0px rgb(50 50 50 / 30%);
+      width: 350px;
+      margin-top: 100px;
+      text-align: center;
+  }
+  
+  .chu {
+      color: #2900ff;
+      padding: 0;
+      margin: 0;
+  }
+  
+  .chu1 {
+      text-decoration: underline;
+      color: red;
+  }
+  
+  a {
+      padding: 0;
+      margin: 0;
+  }
+  
+  .rlink {
+      font-size: 14px;
+      margin-top: 10px;
+      border-top: 1px solid #ccc;
+      padding-top: 10px;
+  }
+  
+  body {
+      background: #000;
+  }

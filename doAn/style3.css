@@ -1,0 +1,577 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    line-height: 1.5;
+}
+
+.item {
+    --khang: 270px;
+    width: var(--khang);
+    height: var(--khang);
+    position: relative;
+    display: inline-block;
+}
+
+.item img {
+    --khang: 270px;
+    width: var(--khang);
+    height: var(--khang);
+}
+
+.container .name-product,
+.container .price {
+    --khang: 270px;
+    width: var(--khang);
+    text-align: center;
+}
+
+.container .name-product {
+    margin-top: 10px;
+    font-weight: 700;
+}
+
+.item .img-top {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+
+.item:hover .img-top {
+    display: inline;
+    cursor: pointer;
+}
+
+.hidden-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 0.6s;
+}
+
+.hidden-img:hover {
+    opacity: 1;
+}
+
+#header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 150px;
+    margin-top: 20px;
+}
+
+#footer {
+    padding-left: 36px;
+}
+
+.left {
+    float: left;
+    width: 50%;
+    position: fixed;
+}
+
+.left img {
+    margin-left: 40px;
+    width: 105px;
+    height: 77px;
+}
+
+.right {
+    width: 50%;
+    right: 0;
+    position: fixed;
+}
+
+.right a {
+    color: #000;
+    margin-left: 16px;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+}
+
+.right img {
+    height: 17px;
+}
+
+.right1,
+.right2 {
+    float: left;
+    height: 50px;
+}
+
+.lefth {
+    float: right;
+    margin-right: 20px;
+}
+
+.lefth img {
+    margin-top: 0px;
+}
+
+.left ul {
+    list-style: none;
+    margin-top: 15px;
+    position: fixed;
+    margin-left: 10px;
+}
+
+.left a {
+    color: #000;
+    font-size: 12px;
+    display: inherit;
+    margin: 2px 0px;
+    letter-spacing: 1px
+}
+
+.left ul li a:hover {
+    text-decoration: none;
+    font-weight: 700;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.leftf {
+    float: left;
+    width: 50%;
+}
+
+.rightf {
+    float: left;
+    text-align: right;
+    margin-right: 36px;
+}
+
+.leftf p {
+    font-family: helveticaneue;
+    font-size: 12px;
+    margin: 0;
+}
+
+.leftf ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.leftf ul li {
+    display: block;
+    float: left;
+}
+
+.leftf ul li a {
+    display: inline-block;
+    padding-right: 5px;
+    margin-left: 5px;
+    border-right: 1px solid #000;
+    color: #000;
+}
+
+.rightf a {
+    color: #000;
+    font-family: helveticaneue;
+    font-size: 12px;
+    letter-spacing: 0.5px;
+    
+}
+
+i {
+    zoom: 1.7;
+}
+
+.rightf p {
+    font-size: 12px;
+    font-family: HelveticaNeue;
+    margin-bottom: 0;
+}
+
+.rightf img {
+    max-width: 150px;
+}
+
+.a1 {
+    margin-right: 18px;
+}
+
+.row1 {
+    margin-top: 145px;
+    margin-left: 50px;
+}
+
+#header a,
+#header h3 {
+    color: #333;
+    font-size: 11px;
+    letter-spacing: 1px;
+}
+
+#header h3 {
+    font-size: 12px;
+}
+
+#header h3 {
+    margin: 0;
+}
+
+.indam {
+    font-weight: 700;
+}
+
+.chinhul {
+    padding-top: 15px;
+}
+
+.soldout {
+    top: 0;
+    right: 0;
+}
+
+.new,
+.soldout {
+    position: absolute;
+    background: #d32e13;
+    color: #fff;
+    padding: 2px 7px;
+    /* font-family: helveticaneuebold; */
+    font-size: 15px;
+}
+
+.row h3,
+.row p {
+    font-size: 1rem;
+    text-align: center;
+    color: #000;
+}
+
+.row h3 {
+    margin: 8px 0 0 0;
+}
+
+.row p {
+    font-size: 14px;
+}
+
+.row2 {
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.pagination {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    margin-top: 20px;
+}
+
+.pagination-items__active {
+    background-color: #424852;
+}
+
+.pagination-items__link {
+    --height: 23px;
+    display: block;
+    text-decoration: none;
+    font-size: 12px;
+    min-width: var(--height);
+    height: var(--height);
+    text-align: center;
+    line-height: var(--height);
+    /* font-family: helveticaneue; */
+    color: #666;
+    font-weight: 700;
+    margin: 0 2px;
+}
+
+.pagination-items__link:hover:not(.pagination-items__active) {
+    background: #f6f6f6;
+}
+
+.lefthaha {
+    float: left;
+    width: 300px;
+    margin-left: 250px;
+    margin-top: 10px;
+}
+
+.righthaha {
+    float: left;
+    height: 150px;
+}
+
+.righthaha img {
+    height: 52px;
+    width: 52px;
+}
+
+.lefthaha i {
+    margin-left: 5px;
+}
+
+#footer {
+    margin-top: 100px;
+    bottom: 0;
+}
+
+
+
+.vung1 {
+    text-align: center;
+    font-family: helveticaneuebold;
+    font-size: 16px;
+    color: #333;
+    width: 100%;
+    font-weight: 700;
+}
+
+.vung2 {
+    width: 100%;
+    max-width: 1200px;
+    margin-left: 170px;
+    position: relative;
+}
+
+.vung2 p {
+    margin-bottom: 0;
+}
+
+.pa1 {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.pa2 {
+    font-size: 14px;
+}
+.contact {
+    margin: 100px auto;
+}
+
+.khungcontact {
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+    margin: 40px auto 10px auto;
+    padding: 20px;
+    background: #E5E5E5;
+    text-align: center;
+}
+
+.khungcontact1 {
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+    margin: 30px auto 10px auto;
+    text-align: center;
+    background: #FFF;
+    padding: 5px;
+}
+
+.map {
+    padding: 4px;
+    background: #FFF;
+    border: solid 1px #EEEEEE;
+    max-width: 800px;
+    margin: 10px auto;
+}
+
+.size:focus {
+    border-color: red;
+    outline: none;
+}
+
+.input1 {
+    padding: 5px 15px;
+    border: solid 1px #CCC;
+    background: #FFF;
+    border-radius: 5px;
+    width: 100%;
+    display: inline-block;
+    vertical-align: top;
+    margin-bottom: 10px;
+    line-height: 22px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+}
+
+iframe {
+    width: 100%;
+    height: 450px;
+    border: 0;
+}
+
+.nut {
+    background: #000;
+    font-family: HelveticaNeue;
+    color: #fff;
+    padding: 7px 15px;
+    border: none;
+    cursor: pointer;
+    margin: 5px 1px;
+    border-radius: 3px;
+}
+
+.nut1 {
+    margin-top: 10px;
+}
+
+.nut2 {
+    margin-bottom: 10px;
+}
+
+.khang {
+    height: 463px;
+    width: 463px;
+    margin: 0 auto;
+    margin-top: 75px;
+}
+
+.khang1 {
+    height: 463px;
+    width: 463px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.khang1 img {
+    height: 463px;
+    width: 463px;
+}
+
+.khang2 {
+    margin: 90px auto 50px auto;
+    text-align: center;
+}
+
+.khang2 p {
+    /* font-family: helveticaneuebold; */
+    font-size: 16px;
+    color: #333;
+    width: 100%;
+    text-align: center;
+    font-weight: normal;
+    font-weight: 700
+}
+
+.khang3 {
+    padding-top: 60px;
+    width: 32%;
+    position: absolute;
+    padding-left: 0px;
+    padding-right: 0px;
+    right: 0;
+}
+
+.product-info {
+    float: left;
+    list-style: none;
+    width: 60%;
+    padding-left: 0px;
+}
+
+.product-info li {
+    border-bottom: 1px solid #18171729;
+    padding: 8px 0;
+    /* font-family: helveticaneue; */
+}
+
+.ten {
+    /* font-family: helveticaneuebold; */
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+
+.gia {
+    /* font-family: HelveticaNeue; */
+    letter-spacing: 1px;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+textarea:focus,
+input:focus {
+    outline: none;
+}
+
+.size {
+    display: inline-block;
+    padding: 2px 10px;
+    border: 1px solid #DDD;
+    border-radius: 3px;
+    margin: 3px;
+    cursor: pointer;
+    color: #333;
+    font-size: 13px;
+    /* font-family: HelveticaNeueMedium; */
+    font-weight: 600;
+}
+
+.size1 {
+    /* font-family: HelveticaNeueMedium; */
+    font-size: 12px;
+    margin-right: 22px;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+
+.khang3 input {
+    width: 18%;
+    border: none;
+    text-align: center;
+    font-size: 14px;
+    margin-right: 5px;
+}
+
+.sizechart {
+    cursor: pointer;
+    transition: all 0.5s;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+#dathang {
+    background: #000;
+    /* font-family: helveticaneuebold; */
+    text-align: center;
+    display: block;
+    padding: 11px 10px;
+    transition: all 0.5s;
+    width: 100%;
+    margin-top: 10px;
+}
+
+#dathang a {
+    color: #fff;
+}
+
+#dathang:hover {
+    background: rgb(80, 73, 73);
+    cursor: pointer;
+}
+
+
+i {
+    zoom: 0.95;
+    font-weight: 700;
+}
+
+.nghik img {
+    opacity: 1;
+}
+
+.nghik img:hover {
+    opacity: 0.5;
+    cursor: pointer;
+    transition-delay: 0.3s;
+}
+
+.size:hover {
+    border: 1px solid black;
+}
